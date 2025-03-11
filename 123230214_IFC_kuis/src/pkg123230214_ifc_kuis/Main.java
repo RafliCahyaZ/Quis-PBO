@@ -95,12 +95,12 @@ public class Main {
     private static void placeGameComponents(JPanel panel){
         panel.setLayout(null);
         //label Player 1
-        JLabel userLabel = new JLabel("Username");
-        userLabel.setBounds(10, 20, 80, 25);
+        JLabel playerLabel = new JLabel("Player 1");
+        playerLabel.setBounds(10, 20, 80, 25);
         panel.add(userLabel);
         
-        JTextField userText = new JTextField(20);
-        userText.setBounds(100, 20, 80, 25);
+        JTextField playerText = new JTextField(20);
+        playerText.setBounds(100, 20, 80, 25);
         panel.add(userText);
     }
     
